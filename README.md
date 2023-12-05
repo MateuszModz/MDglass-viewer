@@ -31,6 +31,7 @@ Planowane są generalne poprawy przejrzystości i estetyki GUI.
 Poprawa wygody funkcjonalności "Linear Fit", głównie z wybieraniem prostych do obliczania punktu przecięcia. Dodanie możliwości usuwania prostych z wykresu i tabeli.
 W przypadku funkcjonalności "RDF" planowane jest dodanie przycisku do czyszczenia wczytanych danych rdf (obecnie możliwe jest zamknięcie i ponowane otworzenie okna). Możliwość odczytania współrzędnych wybranego punkt z wykresu RDF 
 poprzez kliknięcie.
+Ogólne uporządkowanie kodu, rozdzielenie go na więcej plików i napisanie komentarzy.
 
 W przypadku uwag/sugestii/pomysłów proszę o kontakt z dr inż. Przemysławem Dzięgielewskim lub bezpośrednio ze mną (mateusz.modzelewski3.stud@pw.edu.pl).
    
