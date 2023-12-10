@@ -33,5 +33,12 @@ W przypadku funkcjonalności "RDF" planowane jest dodanie przycisku do czyszczen
 poprzez kliknięcie.
 Ogólne uporządkowanie kodu, rozdzielenie go na więcej plików i napisanie komentarzy.
 
+Duża aktualizacja
+Możliwa jest obsługa wielu plików naraz, przy czym każdy plik ma oddzielne okienko do analizy. W tych okienkach znajdują się zakładki 'Linear Fit', 
+'RDF' i  nowa funkcjonalność 'View System'. Główną zmianą w funkcjonalności dopasowywania prostych jest sposób wyboru prostych do obliczenia punktu przecięcia. Dalej opiera się to na wybraniu dwóch prostych z tabeli, ale sam proces jest teraz dużo wygodniejszy i bardziej przejrzysty. W funkcjonalności do oglądania funkcji rozkładu par dodano możliwość wyboru, która kolumna z wczytanego pliku będzie wyrysowana jako Y z pominięciem kolumny 1 (numery binów) i kolumny 2 (odległości). Możliwe jest wyczyszczenie wczytanych danych rdf odpowiednim przyciskiem oraz odczytanie punktu z wykresu RDF poprzez kliknięcie na wykres. Nowa funkcjonalność do oglądania układu atomów działa analogicznie do funkcjonalności RDF. Po wczytaniu pliku typu LAMMPS dump możemy przez kliknięcie na wykres termodynamiki znaleźć najbliższy dostępny krok czasowy z pliku dump i wyrysować układ w tym kroku czasowym. Problematyczne może być kiedy użytkownik chce narysować bardzo duży układ. Przykładowo przy 20000 atomów rysowanie zajmuje około 5 sekund i nic interesującego wtedy nie widać. Na te chwilę nałożyłem 'na sztywno' ograniczenie, że jeżeli w pliku jest więcej niż 1000 atomów to będzie rysowany mały kawałek wycięty ze środka pudełka symulacyjnego. Dodatkowo zostały wprowadzone zmiany do GUI oraz zmiany typu 'look and feel'. Ponadto kod został uporządkowany, rozdzielony na więcej plików i częściowo zostały napisane komentarze.
+
+Co dalej?
+Na tę chwilę nie mam pomysłów na więcej dużych funkcjonalności. Będę starał się usprawniać obecny kod, dopisywać komentarze gdzie ich brakuje i będę pracował nad czytelnością, aby użytkownik mogł w miare łatwo dostosować program w razie potrzeby. Ponadto będę pracował nad wyglądem i ułożeniem GUI. Planuję dodać możliwość zmiany wyglądu poprzez możliwość wyboru trybu ciemnego i dwóch jasnych (jeden będzie estetyczniejszy, drugi do ewentualnego zapisywania wykresów na białym tle pod publikacje). Obecny wygląd okienka (być może po pewnych zmianach) będzie trybem ciemnym.
+
 W przypadku uwag/sugestii/pomysłów proszę o kontakt z dr inż. Przemysławem Dzięgielewskim lub bezpośrednio ze mną (mateusz.modzelewski3.stud@pw.edu.pl).
    
