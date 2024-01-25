@@ -1,2 +1,5 @@
 .git
 .ipynb_checkpoints
+.vscode
+Example_data/cooling_pd85si15/data.rdf 
+Example_data/
